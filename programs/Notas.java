@@ -11,23 +11,23 @@ public class Notas {
 		int nota = sc.nextInt();
 		
 		if (nota >= 90 && nota<=100){
-			System.out.println("Você tirou A");
+			System.out.println("VocÃª tirou A");
 		}
 		
 		if (nota >= 80 && nota<=89){
-			System.out.println("Você tirou B");
+			System.out.println("VocÃª tirou B");
 		}
 		
 		if (nota >= 70 && nota<=79){
-			System.out.println("Você tirou C");
+			System.out.println("VocÃª tirou C");
 		}
 		
 		if (nota >= 60 && nota<=69){
-			System.out.println("Você tirou D");
+			System.out.println("VocÃª tirou D");
 		}
 		
 		if (nota >= 0 && nota<=59){
-			System.out.println("Você tirou E");
+			System.out.println("VocÃª tirou E");
 		} 
 		
 		sc.close();

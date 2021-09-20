@@ -7,20 +7,20 @@ public class Soma_NFfacionarios {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite um número fracionário:");
+		System.out.println("Digite um nÃºmero fracionÃ¡rio:");
 		double numero1 = sc.nextDouble();
 		
-		System.out.println("Digite mais um número fracionário:");
+		System.out.println("Digite mais um nÃºmero fracionÃ¡rio:");
 		double numero2 = sc.nextDouble();
 			
-		System.out.println("Digite mais um número fracionário:");
+		System.out.println("Digite mais um nÃºmero fracionÃ¡rio:");
 		double numero3 = sc.nextDouble();
 
 		if (numero1 > numero2+numero3){
-			System.out.println("O primeiro número informado é maior do que a soma dos dois ultimos.");
+			System.out.println("O primeiro nÃºmero informado Ã© maior do que a soma dos dois ultimos.");
 		}
 		else {
-			System.out.println("A soma dos dois ultimos números informados é maior que o primeiro número");
+			System.out.println("A soma dos dois ultimos nÃºmeros informados Ã© maior que o primeiro nÃºmero");
 		}
 		
 		sc.close();

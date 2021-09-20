@@ -6,9 +6,9 @@ public class Funcao_Par_Impar {
 	
 	public static int dif(int x){
 		if (x%2 == 0) {
-			System.out.println("\nO n�mero � par");
+			System.out.println("\nO número é par");
 		} else {
-			System.out.println("\nO n�mero � impar");
+			System.out.println("\nO número é impar");
 		}
 		return x;
 	}
@@ -17,9 +17,9 @@ public class Funcao_Par_Impar {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Programa que mostra se um n�mero � par ou impar usando fun��es");
+		System.out.println("Programa que mostra se um número é par ou impar usando funções");
 		
-		System.out.println("\nDigite um n�mero: ");
+		System.out.println("\nDigite um número: ");
 		int num = sc.nextInt();		
 		
 		dif(num);

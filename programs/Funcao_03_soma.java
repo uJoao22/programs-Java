@@ -11,10 +11,10 @@ public class Funcao_03_soma {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nÃºmero:");
 		int num1 = sc.nextInt();
 		
-		System.out.println("Digite o outro número:");
+		System.out.println("Digite o outro nÃºmero:");
 		int num2 = sc .nextInt();
 		
 		System.out.println("A soma: " +soma(num1,num2));

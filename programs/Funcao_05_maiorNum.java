@@ -15,13 +15,13 @@ public class Funcao_05_maiorNum {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nÃºmero:");
 		int num1 = sc.nextInt();
 		
-		System.out.println("\nDigite outro número:");
+		System.out.println("\nDigite outro nÃºmero:");
 		int num2 = sc.nextInt();
 		
-		System.out.println("\nO maior é: " +dif(num1,num2));
+		System.out.println("\nO maior Ã©: " +dif(num1,num2));
 		
 		sc.close();
 	}

@@ -12,12 +12,12 @@ public class Funcao_Antecessor {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Programa que mostra o antecessor de um n�mero usando fun��es");
+		System.out.println("Programa que mostra o antecessor de um número usando funções");
 		
-		System.out.println("\nDigite um n�mero: ");
+		System.out.println("\nDigite um número: ");
 		int num = sc.nextInt();
 		
-		System.out.println("\nSeu antecessor �: " +ant(num,num));
+		System.out.println("\nSeu antecessor é: " +ant(num,num));
 		
 		sc.close();
 	}

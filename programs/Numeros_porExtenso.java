@@ -7,8 +7,8 @@ public class Numeros_porExtenso {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Programa para escrever números por extenso");
-		System.out.println("\nDigite um número de 1 a 9:\n");
+		System.out.println("Programa para escrever nÃºmeros por extenso");
+		System.out.println("\nDigite um nÃºmeros de 1 a 9:\n");
 		
 		switch (sc.nextInt()) {
 		case 1:
@@ -18,7 +18,7 @@ public class Numeros_porExtenso {
 			System.out.println("Dois");
 			break;
 		case 3:
-			System.out.println("Três");
+			System.out.println("TrÃªs");
 			break;
 		case 4:
 			System.out.println("Quatro");
@@ -39,7 +39,7 @@ public class Numeros_porExtenso {
 			System.out.println("Nove");
 			break;
 		default:
-			System.out.println("Número inválido");
+			System.out.println("nÃºmero invÃ¡lido");
 		}
 		
 		sc.close();

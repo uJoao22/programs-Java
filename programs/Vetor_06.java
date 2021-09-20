@@ -11,7 +11,7 @@ public class Vetor_06 {
 		int vet[] = new int[10];
 		
 		for(int i = 0; i< vet.length; i++) {
-			System.out.println("Digite um n�mero:");
+			System.out.println("Digite um número:");
 			int num =sc.nextInt();
 			vet[i]= num;
 		}

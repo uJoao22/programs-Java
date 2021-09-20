@@ -29,9 +29,9 @@ public class Funcao_Triangulo_Quadrado {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Programa que faz triangulo e quadrado com asteriscos usando fun��es");
+		System.out.println("Programa que faz triangulo e quadrado com asteriscos usando funções");
 
-		System.out.println("\nDigite 1 para Tri�ngulo");
+		System.out.println("\nDigite 1 para Triângulo");
 		System.out.println("Digite 2 para Quadrado");
 		int option = sc.nextInt();
 		

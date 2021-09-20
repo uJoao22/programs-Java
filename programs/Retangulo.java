@@ -6,7 +6,7 @@ public class Retangulo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Programa que faz um ret�ngulo com asteriscos");
+		System.out.println("Programa que faz um retângulo com asteriscos");
 
 		System.out.println("\nDigite o valor do comprimento:");
 		int num1 = sc.nextInt();

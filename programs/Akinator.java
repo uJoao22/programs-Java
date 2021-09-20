@@ -15,7 +15,7 @@ public class Akinator {
         for (int i = 0; i <= 9; i++) {
             int x = rnd.nextInt((inicial - fim) + 1) + fim;
 
-            System.out.println("Seu n�mero � maior ou menor que: " + x );
+            System.out.println("Seu número é maior ou menor que: " + x );
             System.out.println("> para maior, < para menor, = para igual");
             char aux = sc.next().charAt(0);
 

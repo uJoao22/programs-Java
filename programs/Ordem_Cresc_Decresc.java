@@ -2,21 +2,21 @@ package Lista_1;
 
 import java.util.Scanner;
 
-public class Ordem_Cresc_Decresc { /*Fa�a um algoritmo em Java que ler 3 inteiros do teclado os valores em qualquer ordem (lembrar de colocar as informa��es 
-							do que � para ser feito para o usu�rio), ao final mostre ao usu�rio os valores em ordem crescente e decrescente. */
+public class Ordem_Cresc_Decresc { /*Faça um algoritmo em Java que ler 3 inteiros do teclado os valores em qualquer ordem (lembrar de colocar as informações 
+							do que é para ser feito para o usuário), ao final mostre ao usuário os valores em ordem crescente e decrescente. */
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 
-		System.out.println("Programa que coloca os n�meros em ordem crsescente e descrescente.");
+		System.out.println("Programa que coloca os números em ordem crsescente e descrescente.");
 		
-		System.out.println("\n\nDigite o primeiro n�mero inteiro:");
+		System.out.println("\n\nDigite o primeiro número inteiro:");
 		int num1 = sc.nextInt();
 		
-		System.out.println("\nDigite o segundo n�mero inteiro:");
+		System.out.println("\nDigite o segundo número inteiro:");
 		int num2 = sc.nextInt();
 		
-		System.out.println("\nDigite o terceiro n�mero inteiro:");
+		System.out.println("\nDigite o terceiro número inteiro:");
 		int num3 =sc.nextInt();
 		
 		if(num1 > num2 && num2 > num3) {

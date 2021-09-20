@@ -21,7 +21,7 @@ public class Matriz_04 {
 				soma+= mat[i][j];
 				x = soma / 5; 
 			}
-			System.out.println("A m�dia desta linha �: " +x);
+			System.out.println("A média desta linha é: " +x);
 		}	
 		sc.close();
 	}

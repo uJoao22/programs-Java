@@ -10,7 +10,7 @@ public class Vetor_03 {
 		int vet[] = new int[10], num = 0, pos = 0;
 		
 		for(int i = 0; i< vet.length; i++) {
-			System.out.println("Digite um n�mero:");
+			System.out.println("Digite um número:");
 			vet[i] =sc.nextInt();
 		}
 			
@@ -22,7 +22,7 @@ public class Vetor_03 {
 		    }  
 		}
 		
-		System.out.println("\nO menor n�mero �: " +num+ " e a posi��o dele �: " +pos);
+		System.out.println("\nO menor número é: " +num+ " e a posição dele é: " +pos);
 
 		sc.close();
 	}

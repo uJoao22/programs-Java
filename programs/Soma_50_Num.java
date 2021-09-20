@@ -7,9 +7,9 @@ public class Soma_50_Num {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-			System.out.println("Programa que mostra a soma de 50 at� um n�mero informado");
+			System.out.println("Programa que mostra a soma de 50 até um número informado");
 			
-			System.out.println("\nDigite um n�mero:");
+			System.out.println("\nDigite um número:");
 			int num = sc.nextInt();
 			
 			int x=0;
@@ -20,7 +20,7 @@ public class Soma_50_Num {
 			}
 			System.out.println(x);
 			} else {
-				System.out.println("\nDigite um n�mero maior que 50");
+				System.out.println("\nDigite um número maior que 50");
 			}
 
 		sc.close();

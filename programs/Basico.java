@@ -10,14 +10,14 @@ public class Basico {
 		System.out.println("Qual seu nome?");
 		String name = sc.nextLine();
 		
-		System.out.println("Ol· " +name);
-		System.out.println("… um prazer te conhecer!");
+		System.out.println("Ol√° " +name);
+		System.out.println("√â um prazer te conhecer!");
 		
 		System.out.println("Qual a sua idade?");
 		int idade = sc.nextInt();
 		
 		if (idade < 18) {
-		System.out.println("VocÍ n„o pode entrar, permitido apenas para maiores de 18 anos.");
+		System.out.println("Voc√™ n√£o pode entrar, permitido apenas para maiores de 18 anos.");
 		}
 		else {
 			System.out.println("Entrada liberada, seja bem vindo");

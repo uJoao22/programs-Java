@@ -20,7 +20,7 @@ public class Matriz_03 {
 				}
 			}
 		}
-		System.out.println("\nO menor n�mero �: " +menor+ " e ele est� na linha " +l+ " e na coluna " +c);
+		System.out.println("\nO menor número é: " +menor+ " e ele está na linha " +l+ " e na coluna " +c);
 		sc.close();
 	}
 }

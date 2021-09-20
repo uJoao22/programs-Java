@@ -11,7 +11,7 @@ public class Vetor_02 {
 		int vet[] = new int[10];
 		
 		for(int i = 0; i< vet.length; i++) {
-			System.out.println("Digite um n�mero:");
+			System.out.println("Digite um número:");
 			int num =sc.nextInt();
 			vet[i]= num;
 		}
@@ -23,7 +23,7 @@ public class Vetor_02 {
 		
 		int maior = vet[9];
 		
-		System.out.println("\nO maior n�mero �: " +maior);
+		System.out.println("\nO maior número é: " +maior);
 		
 		sc.close();
 	}

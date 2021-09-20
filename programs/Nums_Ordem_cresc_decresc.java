@@ -7,36 +7,36 @@ public class Nums_Ordem_cresc_decresc {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Programa para colocar 3 números em ordem crescente e decrescente \n");
-		System.out.println("Você deseja saber seus números em qual ordem? \n Digite 1 para ordem crescente \n Digite 2 para ordem decrescente \n Digite 3 para ambas \n");
+		System.out.println("Programa para colocar 3 nÃºmeros em ordem crescente e decrescente \n");
+		System.out.println("VocÃª deseja saber seus nÃºmeros em qual ordem? \n Digite 1 para ordem crescente \n Digite 2 para ordem decrescente \n Digite 3 para ambas \n");
 		int option = sc.nextInt();
 		
 		switch (option) {
 		case 1:
-			System.out.println("\nDigite o primeiro número:");
+			System.out.println("\nDigite o primeiro nÃºmero:");
 			int num1 = sc.nextInt();
 			
-			System.out.println("\nDigite o segundo número:");
+			System.out.println("\nDigite o segundo nÃºmero:");
 			int num2 = sc.nextInt();
 			
-			System.out.println("\nDigite o terceiro número:");
+			System.out.println("\nDigite o terceiro nÃºmero:");
 			int num3 = sc.nextInt();
 			
 			if(num1 > num2 && num2 > num3) {
-				System.out.println("\n A ordem crescente ficará: " +num1+ ", " +num2+ " e " +num3);
+				System.out.println("\n A ordem crescente ficarÃ¡: " +num1+ ", " +num2+ " e " +num3);
 			} else if (num1 > num2 && num3 > num2) {
-					System.out.println("\n A ordem crescente ficará: " +num1+ ", " +num3+ " e " +num2);
+					System.out.println("\n A ordem crescente ficarÃ¡: " +num1+ ", " +num3+ " e " +num2);
 			}
 			break;
 			
 		case 2:
-			System.out.println("Digite o primeiro número:");
+			System.out.println("Digite o primeiro nÃºmero:");
 			int num4 = sc.nextInt();
 			
-			System.out.println("Digite o segundo número:");
+			System.out.println("Digite o segundo nÃºmero:");
 			int num5 = sc.nextInt();
 			
-			System.out.println("Digite o terceiro número:");
+			System.out.println("Digite o terceiro nÃºmero:");
 			int num6 = sc.nextInt();
 			
 			if(num4 > num5 && num4 > num6) {
@@ -45,13 +45,13 @@ public class Nums_Ordem_cresc_decresc {
 			break;
 			
 		case 3:
-			System.out.println("Digite o primeiro número:");
+			System.out.println("Digite o primeiro nÃºmero:");
 			int num7 = sc.nextInt();
 			
-			System.out.println("Digite o segundo número:");
+			System.out.println("Digite o segundo nÃºmero:");
 			int num8 = sc.nextInt();
 			
-			System.out.println("Digite o terceiro número:");
+			System.out.println("Digite o terceiro nÃºmero:");
 			int num9 = sc.nextInt();
 			
 			if(num7 > num8 && num7 > num9) {

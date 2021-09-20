@@ -10,7 +10,7 @@ public class Inicio_Vetor {
 		int vet[] = new int[5];
 		
 		for(int i = 0; i< vet.length; i++) {
-			System.out.println("Digite um número:");
+			System.out.println("Digite um nÃºmero:");
 			vet[i]=sc.nextInt();
 		}
 		for(int i = 0; i<vet.length; i++) {

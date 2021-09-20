@@ -15,9 +15,9 @@ public class Funcao_Fatorial {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Programa que mostra o fatorial de um n�mero usando fun��es");
+		System.out.println("Programa que mostra o fatorial de um número usando funções");
 		
-		System.out.println("\nDigite um n�mero para ter o seu fatorial:");
+		System.out.println("\nDigite um número para ter o seu fatorial:");
 		int num = sc.nextInt();
 		
 		System.out.println("O seu fatorial: " +fat(num, num));

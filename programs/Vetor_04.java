@@ -10,7 +10,7 @@ public class Vetor_04 {
 		int vet[] = new int[10], soma=0;
 		
 		for(int i = 0; i< vet.length; i++) {
-			System.out.println("Digite um n�mero:");
+			System.out.println("Digite um número:");
 			int num =sc.nextInt();
 			vet[i]= num;
 			soma = soma + vet[i];
@@ -18,7 +18,7 @@ public class Vetor_04 {
 
 		soma = soma/10;
 		
-		System.out.println("\nA m�dia �: " +soma);
+		System.out.println("\nA média é: " +soma);
 		
 		sc.close();
 	}

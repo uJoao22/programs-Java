@@ -2,8 +2,8 @@ package Lista_1;
 
 import java.util.Scanner;
 
-public class Futebol { /*Fa�a um algoritmo em Java que ler o nome de 2 times e o n�mero de gols marcados na partida (para cada time). Escrever 
-							o nome do vencedor. Caso n�o haja vencedor dever� ser impressa a palavra EMPATE.*/
+public class Futebol { /*Faça um algoritmo em Java que ler o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever 
+							o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.*/
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);

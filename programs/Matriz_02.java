@@ -24,7 +24,7 @@ public class Matriz_02 {
 			}
 			System.out.println();
 		}	
-		System.out.println("O maior n�mero �: " +maior);
+		System.out.println("O maior número é: " +maior);
 		sc.close();
 	}
 }

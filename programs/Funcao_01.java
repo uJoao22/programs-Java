@@ -3,7 +3,7 @@ package aulaP2;
 public class Funcao_01 {
 	
 	public static void imprimir() {
-		System.out.println("Ol· mundo!!!");
+		System.out.println("Ol√° mundo!!!");
 	}
 
 	public static void main(String[] args) {

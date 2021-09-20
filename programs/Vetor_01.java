@@ -11,7 +11,7 @@ public class Program_01 {
 		int entrou=0;
 		
 		for(int i=0; i< vet.length; i++) {
-			System.out.println("Digite um n�mero:");
+			System.out.println("Digite um número:");
 			vet[i]=sc.nextInt();
 		}
 		
@@ -22,7 +22,7 @@ public class Program_01 {
 			}	
 		}
 		
-		System.out.println("\n" +entrou+ " n�meros que est�o entre 1 e 50");
+		System.out.println("\n" +entrou+ " números que estão entre 1 e 50");
 		
 		sc.close();
 	}
